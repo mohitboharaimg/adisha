@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.swiper-pagination-bullet-active {
+  @apply !bg-white
+}
+
+.offcanvas.show {
+  @apply !right-0
+}
