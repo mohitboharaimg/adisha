@@ -9,3 +9,7 @@
 .offcanvas.show {
   @apply !right-0
 }
+
+body {
+  font-family: "Poltawski Nowy", serif !important;
+}

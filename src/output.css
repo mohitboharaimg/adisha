@@ -629,6 +629,10 @@ video {
   margin-bottom: 1rem;
 }
 
+.mb-8 {
+  margin-bottom: 2rem;
+}
+
 .mt-1 {
   margin-top: 0.25rem;
 }
@@ -695,6 +699,11 @@ video {
   height: 3rem;
 }
 
+.size-4 {
+  width: 1rem;
+  height: 1rem;
+}
+
 .size-\[140px\] {
   width: 140px;
   height: 140px;
@@ -720,15 +729,6 @@ video {
   width: max-content;
   height: -moz-max-content;
   height: max-content;
-}
-
-.size-4 {
-  width: 1rem;
-  height: 1rem;
-}
-
-.h-\[230px\] {
-  height: 230px;
 }
 
 .h-\[400px\] {
@@ -960,6 +960,10 @@ video {
   padding-bottom: 2rem;
 }
 
+.pb-14 {
+  padding-bottom: 3.5rem;
+}
+
 .pb-4 {
   padding-bottom: 1rem;
 }
@@ -1161,6 +1165,10 @@ video {
 
 .offcanvas.show {
   right: 0px !important;
+}
+
+body {
+  font-family: "Poltawski Nowy", serif !important;
 }
 
 .\*\:\*\:inline-block > * > * {
@@ -1439,6 +1447,10 @@ video {
     grid-column: span 8 / span 8;
   }
 
+  .md\:mb-10 {
+    margin-bottom: 2.5rem;
+  }
+
   .md\:flex {
     display: flex;
   }
@@ -1459,10 +1471,6 @@ video {
 
   .md\:h-\[48px\] {
     height: 48px;
-  }
-
-  .md\:h-\[768px\] {
-    height: 768px;
   }
 
   .md\:h-\[calc\(100vh-112px\)\] {
@@ -1600,6 +1608,10 @@ video {
 
   .lg\:col-span-8 {
     grid-column: span 8 / span 8;
+  }
+
+  .lg\:mb-14 {
+    margin-bottom: 3.5rem;
   }
 
   .lg\:hidden {
